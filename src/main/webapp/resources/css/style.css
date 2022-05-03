@@ -1,0 +1,22 @@
+.add-bg {
+    background-image: url("/food-recipe/URLToResourceFolder/image/Colored Patterns.svg");
+    /*color: #CBD3DB;*/
+}
+
+.show-all-bg {
+    background-image: url("/food-recipe/URLToResourceFolder/image/Sprinkle.svg");
+}
+
+.home {
+    background-image: url("/food-recipe/URLToResourceFolder/image/Meteor.svg");
+}
+
+
+.card-body {
+    height: 8rem;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
