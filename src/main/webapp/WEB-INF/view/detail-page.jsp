@@ -14,7 +14,14 @@
         <hr>
         <h4><kbd>Preparation</kbd></h4>
         <p>${recipe.steps}</p>
+        <hr>
+        <div class="d-flex">
 
+            <div class="mx-3"><a href="/food-recipe/update-recipe?id=${recipe.id}"
+                                        class="btn btn-primary">Update</a></div>
+            <div class="mx-3"><a href="/food-recipe/delete-recipel?id=${recipe.id}"
+                                        class="btn btn-primary">Delete</a></div>
+        </div>
     </div>
 </div>
 </body>
